@@ -162,14 +162,6 @@ SET fighteraircraft=1
 WHERE fighteraircraft=0;
 
 -- Finding averages for TotalMilitaryPersonnel, TotalAircraftStrength, TotalHelicopterStrength, and TotalPopulation
-SELECT AVG(totalmilitarypersonnel) AS MilitaryPersonnelAverage
+SELECT AVG(totalmilitarypersonnel) AS MilitaryPersonnelAverage, AVG(totalaircraftstrength) AS AircraftstrengthAverage, AVG(totalhelicopterstrength) AS HelicopterStrengthAverage, AVG(totalpopulation) AS PopulationAverage
 FROM firepower;
 
-SELECT AVG(totalaircraftstrength) AS AircraftstrengthAverage
-FROM firepower;
-
-SELECT AVG(totalhelicopterstrength) AS HelicopterStrengthAverage
-FROM firepower;
-
-SELECT AVG(totalpopulation) AS PopulationAverage
-FROM firepower;
