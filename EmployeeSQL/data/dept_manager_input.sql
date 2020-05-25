@@ -1,0 +1,25 @@
+
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d001',110022);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d001',110039);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d002',110085);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d002',110114);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d003',110183);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d003',110228);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d004',110303);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d004',110344);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d004',110386);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d004',110420);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d005',110511);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d005',110567);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d006',110725);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d006',110765);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d006',110800);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d006',110854);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d007',111035);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d007',111133);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d008',111400);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d008',111534);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d009',111692);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d009',111784);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d009',111877);
+INSERT INTO department_management(dept_no,emp_no) VALUES ('d009',111939);
