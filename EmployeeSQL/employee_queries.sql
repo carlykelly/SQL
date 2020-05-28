@@ -10,6 +10,9 @@ ON salaries.emp_no = employee_data.emp_no;
 SELECT first_name, last_name, hire_date FROM employee_data
 WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
+SELECT first_name, last_name, hire_date FROM employee_data
+WHERE date_part('year', hire_date) = 1986;
+
 --List the manager of each department with the following information: department number, department name, 
 --the manager's employee number, last name, first name
 
@@ -36,15 +39,6 @@ SELECT first_name, last_name, sex
 FROM employee_data
 WHERE first_name = 'Hercules' AND last_name LIKE 'B%';
 
----List all employees in the Sales department, including their employee number, 
----last name, first name, and department name
--- The below does not include a department name column
-SELECT emp_no, last_name, first_name FROM employee_data
-WHERE emp_no IN
-	(SELECT emp_no FROM department_employee
-	WHERE dept_no IN
-		(SELECT department_no FROM departments
-		WHERE department_name = 'Sales'));
 
 ---List all employees in the Sales department, including their employee number, 
 ---last name, first name, and department name
@@ -68,7 +62,7 @@ WHERE department_name = 'Sales' OR department_name = 'Development';
 
 --- In descending order, list the frequency count of employee last names, 
 --- i.e., how many employees share each last name.
-SELECT last_name, COUNT(last_name)
+SELECT last_name, COUNT(last_name) AS "frequency_of_last_name"
 FROM employee_data
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
