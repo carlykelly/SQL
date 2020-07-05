@@ -1,6 +1,11 @@
 # SQL
-- SQL files not in the EmployeeSQL folder may be run in any order.
-- When working with files in Employee SQL folder if you would like to see the schema please select Employee Schema
-- If you would like to create the Employee Database please run the  file "Table Setup.sql". This will create tables and input the data.
-- After you have run Table Setup.sql you may run employee_queries, or the Employee_Bonus files in any order you wish.
-- Please note, when running either Employee_Bonus file you must enter your username and password for postgreSQL in the first cell.
+
+The projects in this repository were assignments completed for The George Washington University Data Analysis and Visualization Bootcamp. They heavily utilize SQL. For more informations on the projects in folders please open the respective folder.
+
+`firepower.sql` creates a SQL table and finds the average of several columns.
+
+`nba.sql` creates two SQL tables and uses various joins to query the tables.
+
+`Mine_the_Subquery.sql` uses subqueries to query the tables created in `nba.sql`
+
+`View_Room_Queries.sql` creates a view.
